@@ -1,0 +1,1 @@
+const solution=(n)=>n < 3 ? 0 : [...Array(n).keys()].filter(e=>e % 3 === 0 || e % 5 === 0).reduce((p,c)=>p+c,0)

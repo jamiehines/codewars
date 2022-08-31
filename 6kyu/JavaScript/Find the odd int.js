@@ -1,0 +1,1 @@
+const findOdd=(a)=>a.find(e=>a.filter(i=>i === e).length % 2)
